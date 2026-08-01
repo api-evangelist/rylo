@@ -1,8 +1,24 @@
 aid: rylo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rylo.png
 name: Rylo
-description: 'Rylo is a company surfaced as a portfolio company of accel, general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Rylo (Nagish Inc. d/b/a Rylo) is a New York-based accessibility technology
+  company building free communication tools for people who are Deaf, hard of hearing,
+  or have a speech disability. Its consumer mobile app provides FCC-certified real-time
+  phone-call captioning, in-person Live Transcribe, and Sign features, with automatic
+  language detection across 50+ languages. Rylo raised $85M and is backed by Accel
+  and General Catalyst. The company operates a consumer application only and does not
+  currently publish a public developer API, SDK, or webhook surface.'
 url: https://raw.githubusercontent.com/api-evangelist/rylo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Accessibility
+- Captioning
+- Transcription
+- Communications
+- Deaf and Hard of Hearing
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rylo-domain-security.yml
 - type: Website
-  url: http://www.rylo.com
+  url: https://www.rylo.com
+- type: Support
+  url: https://help.rylo.com/en/
+- type: Blog
+  url: https://rylo.com/blog
+- type: TermsOfService
+  url: https://rylo.com/legal/terms
+- type: PrivacyPolicy
+  url: https://rylo.com/privacy-policy
+- type: StatusPage
+  url: https://rylostatus.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
