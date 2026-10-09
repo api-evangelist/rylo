@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.rylo.com
   final_host: rylo.com
-  ownership: inherited
+  ownership: own
   owner: rylo
   shares_host_with: null
-  inherited_from: rylo.com
+  inherited_from: null
+  alias_of: rylo.com
   verdict: scored
-  score: null
+  score: 1
+  band: 2
+  band_label: trace
   host_score: 1
-  density: null
+  density: 0.58
   words: 1713
   tiers:
     agentic: 0
